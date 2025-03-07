@@ -43,4 +43,4 @@ services:
 | `CHECK_AT` | Time(s) to check every day. By default this checks half an hour after Plex does it's daily udates, but you can supply a list of comma separate times for multiple checks. | `06:30` |
 | `CHECK_AGENTS` | A comma separated list of agents to check against. | `tvdb,tmdb,imdb` |
 | `CHECK_LIBRARY` | A comma separated list of (case insensitive) Plex library names to check. By default it will look at all libraries by using a `*` wildcard, but this can optimise performance slightly. | `*` |
-| `CHECK_PATH<n>` **and* `CHECK_PATH<n>_REPLACE` | Paired paths for replacing from the Plex config. This is most useful when running in a shell and the path mappings are different. Note that you may only include nine (9) at most. | |
+| `CHECK_PATH<n>` **and** `CHECK_PATH<n>_REPLACE` | Paired paths for replacing from the Plex config. This is most useful when running in a shell and the path mappings are different. Note that you may only include nine (9) at most. | |
